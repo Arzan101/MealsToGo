@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-native-paper";
 import { Text,StyleSheet } from "react-native";
 
-export const RestaurantInfo = ({restaurant = {}}) =>{
+export const RestaurantInfoCard = ({restaurant = {}}) =>{
     const{
         name = 'Some Random Restaurant',
         icon,
