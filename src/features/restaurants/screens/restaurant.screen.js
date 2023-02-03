@@ -1,12 +1,10 @@
 import React from "react"
 import { StatusBar, SafeAreaView,StyleSheet, Text, View } from 'react-native';
-import styled from 'styled-components';
+
 import { Searchbar } from 'react-native-paper';
 import { RestaurantInfoCard } from "../components/restaurant-InfoCard.component";
 
-const Title = styled.Text`
-      padding:16px;
-`
+
 
 export const RestaurantScreen =()=>
 (
