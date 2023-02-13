@@ -1,5 +1,5 @@
 Arguments: 
-  E:\amazon\amazon-clone\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native-safe-area-context@4.4.1
+  E:\amazon\amazon-clone\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add expo-font@~11.0.1
 
 PATH: 
   C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;E:\amazon\amazon-clone\;%AppData%;C:\Program Files\nodejs\;C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\heroku\bin;C:\Users\Dell\AppData\Local\GitHubDesktop\bin;C:\Users\Dell\AppData\Roaming\npm;C:\Windows\System32;
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'E:\MealsToGo\MealsToGo\node_modules\@babel\helper-define-polyfill-provider\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'E:\MealsToGo\MealsToGo\node_modules\@babel\eslint-parser\node_modules\.bin'
 
 npm manifest: 
   {
