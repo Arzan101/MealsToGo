@@ -7,11 +7,12 @@ import styled from "styled-components/native";
 
 const SafeArea = styled(SafeAreaView)`
   flex: 1;
-  padding: ${(props) => props.theme.space[3]};
+  padding: ${(props) => props.theme.space[1]};
 `;
 
 const SearchContainer = styled.View`
   padding: 16px;
+  margin-top:${(props)=>props.theme.fontSizes.h5}
 `;
 
 const RestaurantListContainer = styled.View`

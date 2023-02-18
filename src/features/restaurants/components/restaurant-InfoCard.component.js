@@ -5,6 +5,7 @@ import { Card } from "react-native-paper";
 
 const RestaurantCard = styled(Card)`
   background-color: ${(props)=>props.theme.colors.text.inverse};  
+ 
 `;
 
 const RestaurantCardCover = styled(Card.Cover)`
@@ -13,9 +14,17 @@ const RestaurantCardCover = styled(Card.Cover)`
 `;
 
 const Title = styled(Text)`
-  padding:  ${(props)=>props.theme.space[3]};
+  font-family: ${(props)=>props.theme.fonts.heading};
+  font-size:${(props)=>props.theme.fontSizes.body}
   color: ${(props)=>props.theme.colors.ui.primary};
 `;
+const Address = styled(Text)`
+font-family: ${(props)=>props.theme.fonts.body};
+font-size:${(props)=>props.theme.fontSizes.caption}
+`
+const Info = styled.View`
+padding:  ${(props)=>props.theme.space[3]};
+`
 
 export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const {
@@ -34,7 +43,10 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
     
     <RestaurantCard elevation={5}>
     <RestaurantCardCover key={name} source={{ uri: photos[0] }} />
+    <Info>
     <Title>{name}</Title>
+    <Address>{address}</Address>
+    </Info>
     </RestaurantCard>
   );
 };
